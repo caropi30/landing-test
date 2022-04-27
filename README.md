@@ -2,12 +2,8 @@
 
 ## Hola Amig@! 👋
 
-Este es un proyecto que desarrolle siguiendo las pautas del template descargado de la plataforma Frontend Mentor.
+Este maquetad ha sido realizado como entrega de prueba técnica.
 
-**To do this challenge, you need a good understanding of HTML, CSS and JavaScript.**
-
-## El Reto
-
-##
+**Para correr los estilos del proyecto es necesario hacer uso de node-sass**
 
 Espero te sea de utilidad!!
