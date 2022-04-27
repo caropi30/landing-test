@@ -4,7 +4,7 @@
   "description": "Prueba técnia",
   "scripts": {
     "watch:css": "nodemon -e scss -x \"npm run build:css\"",
-    "build:css": "node-sass --output-style compressed scss/style.scss css/main.css"
+    "build:css": "node-sass --output-style compressed scss/style.scss css/style.css"
   },
   "author": "Carolina Pirela",
   "license": "MIT",

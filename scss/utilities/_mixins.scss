@@ -1,0 +1,27 @@
+@mixin d-flex {
+    display: flex;
+}
+
+@mixin b-radius-10 {
+    border-radius: 10px;
+}
+
+@mixin b-radius-7 {
+    border-radius: 7px;
+}
+
+@mixin w-100 {
+    width: 100%;
+}
+
+@mixin w-300px {
+    width: 300px;
+}
+
+@mixin max-width {
+    max-width: 80%;
+}
+
+@mixin padding-1-2 {
+    padding: .7rem 1.5rem;
+}

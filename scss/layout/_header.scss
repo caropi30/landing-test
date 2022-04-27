@@ -1,0 +1,73 @@
+// Extra small devices (landscape phones, 200px and up)
+@media (min-width: 200px) and (max-width: 575.98px) {
+
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+  
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+ 
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    header {
+        .title{
+           @include d-flex;
+           justify-content: center;
+
+           &--img{
+                @include w-300px;
+
+                img {
+                    @include w-100;
+                }
+           }
+        }
+        
+        .btn-group{
+            @include d-flex;
+            justify-content: center;
+
+            .red {
+                background-color: $red;
+                border-bottom: 3px solid rgba(0, 0, 0, .3);
+                @include padding-1-2;
+            }
+            
+            .blue {
+                background-color: $blue;
+                border-bottom: 3px solid rgba(0, 0, 0, .3);
+                @include padding-1-2;
+                white-space: normal;
+                width: 17rem;
+            }
+            
+            .green {
+                background-color: $green;
+                border-bottom: 3px solid rgba(0, 0, 0, .3);
+                padding: .7rem 4rem;
+            }
+        }
+
+        .btn{
+           margin: 1rem; 
+           border: none;
+           @include b-radius-7;
+           font-size: $small;
+           color: $white;
+
+        }
+
+       
+    }
+}
